@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#font1{
+  font-family: 'Anonymous Pro';
+}
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
