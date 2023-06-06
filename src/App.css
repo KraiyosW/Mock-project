@@ -1,4 +1,43 @@
-#root {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#font1{
+  font-family: 'Anonymous Pro';
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#picture-profile{
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  width: 100%;
+  z-index: 10;
+}
+.class-picture-profile{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 210rem;
+}
+#bullet1{
+  z-index: 9;
+  position: absolute;
+  width: 20rem;
+  height: 15rem;
+}
+#bullet2{
+  z-index: 9;
+  position: absolute;
+  width: 20rem;
+  height: 15rem;
+}
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +78,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
