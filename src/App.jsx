@@ -2,6 +2,7 @@ import Header from './components/header';
 import Information from './components/personal-information';
 import Hiring from './components/hiring';
 import Skills from './components/skills';
+import Footer from './components/footer';
 import './App.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <Information/>
     <Hiring/>
     <Skills/>
+    <Footer/>
     </div>
   )
 }
