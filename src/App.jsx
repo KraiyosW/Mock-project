@@ -8,7 +8,7 @@ import './App.css'
 function App() {
   
   return (
-    <div className='w-[100vw] h-[100vh] bg-[#F5ebee] overflow-hidden'>
+    <div className='w-[100vw] h-[100vh] bg-[#F5ebee] overflow-x-clip'>
     <Header/>  
     <Information/>
     <Hiring/>
