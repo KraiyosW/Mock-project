@@ -11,6 +11,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 #picture-profile{
   position: absolute;
@@ -36,6 +37,17 @@
   position: absolute;
   width: 20rem;
   height: 15rem;
+}
+.hiring{
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sub-hiring{
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 /* #root {
   max-width: 1280px;
